@@ -29,7 +29,7 @@ pub enum Ak8963Reg {
 }
 
 impl Ak8963Reg {
-    fn addr(&self) -> u8 {
+    pub fn addr(&self) -> u8 {
         *self as u8
     }
 }

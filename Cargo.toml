@@ -1,6 +1,6 @@
 [package]
 name = "ak8963"
-version = "1.0.0"
+version = "1.0.1"
 authors = ["Ken Elkabany <ken@elkabany.com>"]
 license = "MIT"
 description = "Library for the AK8963 magnetometer."
