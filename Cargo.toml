@@ -1,6 +1,6 @@
 [package]
 name = "ak8963"
-version = "1.0.1"
+version = "1.1.0"
 authors = ["Ken Elkabany <ken@elkabany.com>"]
 license = "MIT"
 description = "Library for the AK8963 magnetometer."
@@ -11,7 +11,7 @@ readme = "README.md"
 [dependencies]
 byteorder = "1.1.0"
 i2cdev = "0.3.1"
-ndarray = "0.11.2"
+ndarray = "0.12"
 
 [[example]]
 name = "scan"
